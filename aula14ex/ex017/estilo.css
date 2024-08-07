@@ -9,7 +9,8 @@ body {
 header {
     color: white;
     text-align: center;
-    
+    font-size: 2em;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
 }
 
 section {
@@ -21,8 +22,16 @@ section {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.486);
 }
 
+#container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    /*align-items: center; /* Centraliza verticalmente */
+    /*height: 100vh; /* Altura da div para centralização vertical */
+}
+
 footer {
     color:white;
     text-align: center;
     font-style: italic;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
 }
